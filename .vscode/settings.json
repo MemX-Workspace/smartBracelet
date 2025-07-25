@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "audio_config.h": "c",
+        "spi.h": "c"
+    }
+}
