@@ -29,6 +29,8 @@
 #define WINBOND_BLOCK_ERASE		                            0xD8
 #define WINBOND_CHIP_ERASE		                            0xC7
 #define WINBOND_JEDEC_ID                                    0x9F
+#define WINBOND__ID                                         0x90
+#define WINBOND_UNLOCK                                      0x98
 
 enum {
     FLASH_PAGE_ERASER,

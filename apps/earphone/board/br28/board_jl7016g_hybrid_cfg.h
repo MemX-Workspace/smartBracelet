@@ -31,7 +31,7 @@
 // #define TCFG_UART0_TX_PORT  				IO_PORTA_05                            //串口发送脚配置
 
 #if CLIENT_BOARD == EARPHONE_HYBRID
-#define TCFG_UART0_TX_PORT  				IO_PORT_DP                            //串口发送脚配置
+#define TCFG_UART0_TX_PORT  				IO_PORTA_04                            //串口发送脚配置
 #else
 #define TCFG_UART0_TX_PORT  				IO_PORTB_02                            //串口发送脚配置
 #endif
@@ -1106,9 +1106,9 @@ DAC硬件上的连接方式,可选的配置：
 //                                 硬件SPI 配置                                        //
 //*********************************************************************************//
 #define TCFG_HW_SPI1_ENABLE                 ENABLE_THIS_MOUDLE
-#define TCFG_HW_SPI1_PORT_CLK               IO_PORTG_08//IO_PORTG_08
-#define TCFG_HW_SPI1_PORT_MOSI               IO_PORTG_05//IO_PORTG_05
-#define TCFG_HW_SPI1_PORT_MISO               IO_PORTG_06//IO_PORTG_06
+#define TCFG_HW_SPI1_PORT_CLK               IO_PORTC_04//IO_PORTG_08
+#define TCFG_HW_SPI1_PORT_MOSI              IO_PORTC_05//IO_PORTG_05
+#define TCFG_HW_SPI1_PORT_MISO              IO_PORTC_03//IO_PORTG_06
 // #define TCFG_HW_SPI1_PORT_INT               IO_PORTG_02//IO_PORTC_02
 #define TCFG_HW_SPI1_BAUD                   2000000L
 #define TCFG_HW_SPI1_MODE                   SPI_MODE_BIDIR_1BIT

@@ -8,6 +8,7 @@
 #include "asm/spi.h"
 #include "timer.h"
 #include "jiffies.h"
+#include "norflash_sfc.h"
 
 typedef unsigned char u8_t;
 typedef unsigned short int u16_t;

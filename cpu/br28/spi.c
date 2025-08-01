@@ -194,6 +194,7 @@ static void spi_io_port_init(u8 port, u8 dir)
             gpio_set_direction(port, 0);
         }
         gpio_set_die(port, 1);
+        gpio_set_hd0(port, 1);
         gpio_set_pull_up(port, 0);
         gpio_set_pull_down(port, 0);
     }
