@@ -1,2 +1,6 @@
 *.d
 *.o
+*.d
+objs/apps/common/audio/audio_export_demo.c.o
+*.d
+*.o
